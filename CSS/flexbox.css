@@ -1,0 +1,47 @@
+.container{
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column; 
+    /* remove this when align items */
+    /* align-items: center;
+    align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: center; */
+
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+}
+.box1{
+    /* width: 100px;
+    height: 100px; */
+    background-color: red;
+    flex-basis: 75%;
+    margin: 1px;
+    /* flex-grow: 2; */
+    /* flex-shrink: 3; */
+    /* align-self: all same parameters */
+
+}
+.box2{
+    /* width: 100px;
+    height: 100px; */
+    background-color: aqua;
+    flex-basis: 75%;
+    margin: 1px;
+    /* flex-grow: 2; */
+}
+.box3{
+    /* width: 100px;
+    height: 100px; */
+    background-color: brown;
+    /* flex-grow: 1; */
+    margin: 1px; 
+    flex-basis: 75%; 
+    /*flex: 0 1 auto ; */
+}

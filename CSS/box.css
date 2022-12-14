@@ -1,0 +1,14 @@
+div{
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+    border: 3px solid orange;
+    padding-left: 75px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    /* margin: 200px; */
+    /* box-sizing: border-box;
+    box-sizing: content-box; */
+    margin: 100px 200px 50px 75px;
+}

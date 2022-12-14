@@ -1,0 +1,30 @@
+body{
+    width: 1000px;
+    height: 650px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border: 5px solid green;
+    /* use box-sizing: content-box; or
+    box-sizing: border-box; */
+}
+h1{
+    text-align: center;
+    color: red;
+}
+p{
+    display: inline;
+}
+img{
+    display: inline;
+    float: left;
+}
+.out{
+    margin: 10px;
+}
+/* *{
+    box-sizing: border-box;
+    when needed to change for each box
+} */
+/* @media screen and (min-width:) and (max-width:) {
+    write all css code here for media queries    
+} */

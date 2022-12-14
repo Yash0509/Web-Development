@@ -1,0 +1,14 @@
+
+h1{
+    background: rgb(255,255,60);
+    border: 5px solid blueviolet;
+    /* display: block;
+    display: inline; 
+    display: inline-block;
+    display: none;*/
+}
+body{
+    background: url(https://images.pexels.com/photos/206359/pexels-photo-206359.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1/);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

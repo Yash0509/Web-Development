@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    border-bottom: 3px solid palegreen;
+}
+.navbar .navbar-brand{
+    color: palegreen;
+    font-size: 24px;
+}
+.nav-link{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: palegreen !important;
+}
+#header{
+    background: url('Lion King.png') no-repeat;
+    background-size: cover;
+    height: 91vh;
+}
+.btn-outline-secondary{
+    cursor: pointer;
+}
+.btn-outline-secondary:hover{
+    background-color: palegreen;
+}
+#features .fa{
+    font-size: 65px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+#features i:hover{
+    cursor: pointer;
+    color: palegreen;
+}
+#work{
+    background: url(me.jpg);
+    background-color: palegreen;
+    background-size: cover;
+}
+#work i{
+    color: chocolate;
+}
+#history{
+    background-color: palegreen;
+}
+.historyArea{
+    background-color: white;
+    height: 450px;
+    margin-right: -50px;
+    padding: 30px;
+}
+.historyImage{
+    margin-top: 90px;
+    margin-left: -20px;
+    z-index: 50;
+    position: relative;
+}
+#gallery .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.imageContainer{
+    position: relative;
+    cursor: pointer;
+}
+.imgOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(26, 0, 26);
+    opacity: 0;
+}
+.imageContainer:hover .imgOverlay{
+    opacity: .5;
+}
+.imgText{
+    position: absolute;
+    color: white;
+}
+#footer{
+    background-color: black;
+    width: 100%;
+}
+#footer .container{
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.social{
+    margin: 20px 0;
+}
+.social a{
+    margin-right:25px ;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+.content h2{
+    text-transform: uppercase;
+    font-size: medium;
+}
+#footer .container .content{
+    padding: 10px 20px;
+    color: white;
+}
+.second{
+    margin-left: 200px; 
+    padding: 100px;
+}
+@media screen and (max-width: 1200px) {
+    #header{
+        background-size: 1200px 100vh;
+    }
+    .historyImage{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 992px) {
+    #header{
+        background-size: 992px 100vh;
+    }
+    .historyImage{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 768px) {
+    #header{
+        background-size: 768px 100vh;
+    }
+    .historyImage{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 576px) {
+    #header{
+        background-size: 576px 100vh;
+    }
+    .historyImage{
+        margin-left: 0;
+        margin-top: 0;
+        text-align: center;
+    }
+}

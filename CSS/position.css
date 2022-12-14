@@ -1,0 +1,42 @@
+.blue{
+    width: 100px;
+    height:50px;
+    background-color: blue;
+    float: left;
+    /* position:static; */
+}
+.green{
+    width: 100px;
+    height:50px;
+    background-color: green;
+    float: left;
+    /* position: absolute;
+    fixed to the position it is having by html and sets the
+     parameter given, given at a point of a page
+    left:150px; */
+}
+
+.red{
+    width: 100px;
+    height:50px;
+    background-color: red;
+    float: right;
+     /* position: relative;
+    relative to the position it is having by html
+    right: 30px;
+    bottom: 20px; */
+}
+.yellow{
+    width: 100px;
+    height:50px;
+    background-color: yellow;
+    clear: both;
+    margin-left: 50px;
+    box-shadow: -7px 6px black;
+    border-radius: 15px;
+    transform: rotate(60deg);
+    /* position: fixed;
+    fixed to the position in any page. For factors apart from 
+    given,it uses the one from html for other things  
+    top: 40px; */
+}

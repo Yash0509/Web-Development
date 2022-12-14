@@ -1,0 +1,39 @@
+.container1{
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+}
+a{
+    text-decoration: none;
+}
+.container2{
+    background-color: aqua;
+    display: flex;
+    height: 200px;
+}
+.image{
+    flex-grow: 1;
+}
+.para{
+    flex-grow: 4;
+}
+
+.container3{
+    background-color: darkgoldenrod;
+    /* display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    height: 400px; */
+    display: grid;
+    grid-template: 1fr / repeat(auto-fit, minmax(200px,1fr));
+    grid-gap:20px;
+    padding: 20px;    
+}
+.container3 > img{
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
